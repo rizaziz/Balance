@@ -14,4 +14,20 @@
 	<servlet-name>HelloServlet</servlet-name>
 	<url-pattern>/hello</url-pattern>
   </servlet-mapping>
+  
+  <context-param>
+	<param-name>OracleUrl</param-name>
+	<param-value>jdbc:oracle:thin:@localhost:1521:orcl</param-value>
+  </context-param>
+  
+  <context-param>
+	<param-name>OracleUser</param-name>
+	<param-value>system</param-value>
+  </context-param>
+  
+  <context-param>
+	<param-name>OraclePass</param-name>
+	<param-value>oracle</param-value>
+  </context-param>  
+  
 </web-app>
