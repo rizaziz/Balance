@@ -28,6 +28,10 @@
   <context-param>
 	<param-name>OraclePass</param-name>
 	<param-value>oracle</param-value>
-  </context-param>  
+  </context-param>
+  
+  <session-config>
+	<session-timeout>1</session-timeout>
+  </session-config>  
   
 </web-app>
